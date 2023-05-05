@@ -8,8 +8,7 @@ const linuxAppImage: builder.CliOptions = {
   ia32: true,
   armv7l: true,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'always',
+  projectDir: '.',
 }
 
 const linuxSnap: builder.CliOptions = {
@@ -17,8 +16,7 @@ const linuxSnap: builder.CliOptions = {
   ia32: false,
   armv7l: false,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'always',
+  projectDir: '.',
 }
 
 const winPortable: builder.CliOptions = {
@@ -26,8 +24,7 @@ const winPortable: builder.CliOptions = {
   ia32: true,
   armv7l: false,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'always',
+  projectDir: '.',
 }
 
 const winNsis: builder.CliOptions = {
@@ -35,8 +32,7 @@ const winNsis: builder.CliOptions = {
   ia32: true,
   armv7l: false,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'always',
+  projectDir: '.',
 }
 
 const winAppx: builder.CliOptions = {
@@ -44,8 +40,7 @@ const winAppx: builder.CliOptions = {
   ia32: true,
   armv7l: false,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'onTag',
+  projectDir: '.',
 }
 
 const mac: builder.CliOptions = {
@@ -53,8 +48,7 @@ const mac: builder.CliOptions = {
   ia32: true,
   armv7l: false,
   arm64: false,
-  projectDir: './build/clean',
-  publish: 'always',
+  projectDir: '.',
 }
 
 async function executeBuild() {
