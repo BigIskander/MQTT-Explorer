@@ -1,0 +1,5 @@
+# only node 16, run command
+npm install electron-builder --legacy-peer-deps
+
+# to compile
+yarn justcompile
